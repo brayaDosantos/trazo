@@ -24,8 +24,12 @@ Desde el apartado **Code** del repositorio en tu cuenta personal realiza la clon
 5.   En la terminal de GitBash escribe los siguientes comandos:
 
 ```bash
-git clone https://github.com/TU-USUARIO/PROYECTO.git
-cd PROYECTO
+# Clonar el repositorio
+# Recuerda PEGAR la URL que copiaste en lugar del URL de ejemplo :D
+git clone https://github.com/TU-USUARIO/trazo.git
+
+# Moverte dentro la carpeta donde se clonó el repositorio
+cd trazo
 ```
 
 ### 3. Agrega el repo original como upstream
