@@ -43,10 +43,10 @@ Revisa si se agregó de manera exitosa el repositorio como upstream.
 ```bash
 git remote -v
 # Deberia salirte como resultado, luego de ingresar ese comando, lo siguiente:
-origin https://github.com/TU-USUARIO/pulso.git (fetch)
-origin https://github.com/TU-USUARIO/pulso.git (push)
-upstream https://github.com/sis-inf/pulso.git (fetch)
-upstream https://github.com/sis-inf/puslo.git (push)
+origin https://github.com/TU-USUARIO/trazo.git (fetch)
+origin https://github.com/TU-USUARIO/trazo.git (push)
+upstream https://github.com/sis-inf/trazo.git (fetch)
+upstream https://github.com/sis-inf/trazo.git (push)
 ```
 Asegúrate de que te aparezca en **origin** tu nombre de usuario en el apartado ***TU-USUARIO***, mientras que en **upstream** el nombre de ***sis-inf***. 
 
