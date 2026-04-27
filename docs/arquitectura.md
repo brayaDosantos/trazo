@@ -1,5 +1,4 @@
 # Arquitectura del Sistema
-
 ## Visión general
 la libreria trazo está diseñada para gestionar la ejecución de consultas a base de datos de manera modular, separando responsabilidades en diferentes componentes.
 ## Componentes principales
@@ -15,7 +14,6 @@ trazo/
 ├── resultados/
 └── utilidades/
 ## Tecnologías utilizadas
-
 | Componente | Tecnología | Versión | Justificación |
 |------------|------------|---------|---------------|
 | Base       | java       |Lenguaje principal       |
