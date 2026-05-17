@@ -35,8 +35,13 @@ function newtonRaphson(expression, x0, tol = 0.001, maxIter = 100) {
     const dfx = derivative(x);
 
     if (dfx === 0) {
-      console.error("LA DERIVADA ES CERO");
-      return null;
+  return {
+    root: null,
+    iterations,
+    converged: false,
+    steps,
+  };
+
     }
 
     const xNext = x - (fx / dfx);
