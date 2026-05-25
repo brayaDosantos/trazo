@@ -51,4 +51,13 @@ export { polyEval } from './math/polyEval.js';
 /**
  * Re-exporta el método público de Newton-Raphson.
  */
-export { newtonRaphson } from './no-lineales/newton-raphson.js';
+export { newtonRaphson } from './no-lineales/newton-raphson.js'
+/**
+
+* Agrupador para métodos no lineales.
+ */
+import { biseccion } from './no-lineales/biseccion.js';
+export { biseccion };
+export const noLineales = {
+  biseccion
+};
