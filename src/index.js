@@ -9,9 +9,9 @@ export { derivative } from './calculus/derivative.js';
 export { simpson13 } from './integracion/simpson-13.js';
 
 /**
- * Re-exporta el método público de integración Simpson.
+ * Re-exporta el método público de integración Simpson 3/8.
  */
-export { simpson } from './integration/simpson.js';
+export { simpson38 } from './integracion/simpson-38.js';
 
 /**
  * Re-exporta la función pública para interpolación de Lagrange.
